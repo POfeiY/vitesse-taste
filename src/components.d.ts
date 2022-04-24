@@ -5,8 +5,11 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Counter: typeof import('./components/Counter.vue')['default']
+    FloatingContainer: typeof import('./components/FloatingContainer.vue')['default']
+    FloatingProxy: typeof import('./components/FloatingProxy.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     README: typeof import('./components/README.md')['default']
+    TheImage: typeof import('./components/TheImage.vue')['default']
   }
 }
 
